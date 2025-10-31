@@ -1,0 +1,142 @@
+[2025-10-31 11:29:09] [INFO]  - ls -r
+[2025-10-31 11:29:09] [ERROR]  - Wrong argument
+[2025-10-31 11:54:27] [INFO]  - ls
+[2025-10-31 11:54:29] [INFO]  - cd ..
+[2025-10-31 11:54:30] [INFO]  - exit
+[2025-10-31 18:25:29] [INFO]  - ls
+[2025-10-31 18:25:29] [INFO]  - cat test.txt
+[2025-10-31 18:25:29] [INFO]  - cd newdir
+[2025-10-31 18:25:29] [INFO]  - mv file1.txt file2.txt
+[2025-10-31 18:25:29] [INFO]  - rm file2.txt
+[2025-10-31 18:25:29] [INFO]  - cp a.txt b.txt
+[2025-10-31 18:25:29] [INFO]  - rm -r dirA
+[2025-10-31 18:25:29] [INFO] Directory was delete
+[2025-10-31 18:25:29] [INFO]  - abragadabra
+[2025-10-31 18:25:29] [ERROR]  - unknown command
+[2025-10-31 18:25:29] [INFO]  - rm protected.txt
+[2025-10-31 18:25:29] [INFO]  - ls
+[2025-10-31 18:25:29] [INFO]  - cat nofile.txt
+[2025-10-31 18:25:29] [ERROR]  - wrong argument
+[2025-10-31 18:25:29] [INFO]  - rm
+[2025-10-31 18:25:29] [ERROR]  - not enough arguments
+[2025-10-31 18:25:29] [INFO]  - mv
+[2025-10-31 18:25:29] [ERROR]  - not enough arguments
+[2025-10-31 18:25:29] [INFO]  - cd
+[2025-10-31 18:25:29] [INFO]  - cp
+[2025-10-31 18:25:29] [ERROR]  - not enough arguments
+[2025-10-31 18:25:29] [INFO]  - rm -r
+[2025-10-31 18:25:29] [ERROR]  - not enough arguments
+[2025-10-31 18:26:00] [INFO]  - ls
+[2025-10-31 18:26:00] [INFO]  - cat test.txt
+[2025-10-31 18:26:00] [INFO]  - cd newdir
+[2025-10-31 18:26:00] [INFO]  - mv file1.txt file2.txt
+[2025-10-31 18:26:00] [INFO]  - rm file2.txt
+[2025-10-31 18:26:00] [INFO]  - cp a.txt b.txt
+[2025-10-31 18:26:00] [INFO]  - rm -r dirA
+[2025-10-31 18:26:00] [INFO] Directory was delete
+[2025-10-31 18:26:00] [INFO]  - abragadabra
+[2025-10-31 18:26:00] [ERROR]  - unknown command
+[2025-10-31 18:26:00] [INFO]  - rm protected.txt
+[2025-10-31 18:26:00] [INFO]  - ls
+[2025-10-31 18:26:00] [INFO]  - cat nofile.txt
+[2025-10-31 18:26:00] [ERROR]  - wrong argument
+[2025-10-31 18:26:00] [INFO]  - rm
+[2025-10-31 18:26:00] [ERROR]  - not enough arguments
+[2025-10-31 18:26:00] [INFO]  - mv
+[2025-10-31 18:26:00] [ERROR]  - not enough arguments
+[2025-10-31 18:26:00] [INFO]  - cd
+[2025-10-31 18:26:00] [INFO]  - cp
+[2025-10-31 18:26:00] [ERROR]  - not enough arguments
+[2025-10-31 18:26:00] [INFO]  - rm -r
+[2025-10-31 18:26:00] [ERROR]  - not enough arguments
+[2025-10-31 18:26:44] [INFO]  - ls
+[2025-10-31 18:26:44] [INFO]  - cat test.txt
+[2025-10-31 18:26:44] [INFO]  - cd newdir
+[2025-10-31 18:26:44] [INFO]  - mv file1.txt file2.txt
+[2025-10-31 18:26:44] [INFO]  - rm file2.txt
+[2025-10-31 18:26:44] [INFO]  - cp a.txt b.txt
+[2025-10-31 18:26:44] [INFO]  - rm -r dirA
+[2025-10-31 18:26:44] [INFO] Directory was delete
+[2025-10-31 18:26:44] [INFO]  - abragadabra
+[2025-10-31 18:26:44] [ERROR]  - unknown command
+[2025-10-31 18:26:44] [INFO]  - rm protected.txt
+[2025-10-31 18:26:44] [INFO]  - cat
+[2025-10-31 18:26:44] [ERROR]  - not enough arguments
+[2025-10-31 18:26:44] [INFO]  - rm
+[2025-10-31 18:26:44] [ERROR]  - not enough arguments
+[2025-10-31 18:26:44] [INFO]  - mv
+[2025-10-31 18:26:44] [ERROR]  - not enough arguments
+[2025-10-31 18:26:44] [INFO]  - cp
+[2025-10-31 18:26:44] [ERROR]  - not enough arguments
+[2025-10-31 18:26:44] [INFO]  - rm -r
+[2025-10-31 18:26:44] [ERROR]  - not enough arguments
+[2025-10-31 18:29:57] [INFO]  - ls
+[2025-10-31 18:29:57] [INFO]  - cat test.txt
+[2025-10-31 18:29:57] [INFO]  - cd newdir
+[2025-10-31 18:29:57] [INFO]  - mv file1.txt file2.txt
+[2025-10-31 18:29:57] [INFO]  - rm file2.txt
+[2025-10-31 18:29:57] [INFO]  - cp a.txt b.txt
+[2025-10-31 18:29:57] [INFO]  - rm -r dirA
+[2025-10-31 18:29:57] [INFO] Directory was delete
+[2025-10-31 18:29:57] [INFO]  - abragadabra
+[2025-10-31 18:29:57] [ERROR]  - unknown command
+[2025-10-31 18:29:57] [INFO]  - rm protected.txt
+[2025-10-31 18:29:57] [INFO]  - cat
+[2025-10-31 18:29:57] [ERROR]  - not enough arguments
+[2025-10-31 18:29:57] [INFO]  - rm
+[2025-10-31 18:29:57] [ERROR]  - not enough arguments
+[2025-10-31 18:29:57] [INFO]  - mv
+[2025-10-31 18:29:57] [ERROR]  - not enough arguments
+[2025-10-31 18:29:57] [INFO]  - cp
+[2025-10-31 18:29:57] [ERROR]  - not enough arguments
+[2025-10-31 18:29:57] [INFO]  - rm -r
+[2025-10-31 18:29:57] [ERROR]  - not enough arguments
+[2025-10-31 18:30:28] [INFO]  - ls
+[2025-10-31 18:30:28] [INFO]  - cat test.txt
+[2025-10-31 18:30:28] [INFO]  - cd newdir
+[2025-10-31 18:30:28] [INFO]  - mv file1.txt file2.txt
+[2025-10-31 18:30:28] [INFO]  - rm file2.txt
+[2025-10-31 18:30:28] [INFO]  - cp a.txt b.txt
+[2025-10-31 18:30:28] [INFO]  - rm -r dirA
+[2025-10-31 18:30:28] [INFO] Directory was delete
+[2025-10-31 18:30:28] [INFO]  - abragadabra
+[2025-10-31 18:30:28] [ERROR]  - unknown command
+[2025-10-31 18:30:28] [INFO]  - rm protected.txt
+[2025-10-31 18:30:28] [INFO]  - cat
+[2025-10-31 18:30:28] [ERROR]  - not enough arguments
+[2025-10-31 18:30:28] [INFO]  - rm
+[2025-10-31 18:30:28] [ERROR]  - not enough arguments
+[2025-10-31 18:30:28] [INFO]  - mv
+[2025-10-31 18:30:28] [ERROR]  - not enough arguments
+[2025-10-31 18:30:28] [INFO]  - cp
+[2025-10-31 18:30:28] [ERROR]  - not enough arguments
+[2025-10-31 18:30:28] [INFO]  - rm -r
+[2025-10-31 18:30:28] [ERROR]  - not enough arguments
+[2025-10-31 18:31:21] [INFO]  - pwd
+[2025-10-31 18:31:21] [ERROR]  - unknown command
+[2025-10-31 18:33:19] [INFO]  - cd /private/var/folders/jj/ylgf1yy16z7fr_52tddngf4w0000gn/T/pytest-of-maksimstolpovskiy/pytest-6/test_ls0
+[2025-10-31 18:33:19] [INFO]  - ls
+[2025-10-31 18:33:19] [INFO]  - cat test.txt
+[2025-10-31 18:33:19] [INFO]  - cd newdir
+[2025-10-31 18:33:19] [INFO]  - mv file1.txt file2.txt
+[2025-10-31 18:33:19] [INFO]  - rm file2.txt
+[2025-10-31 18:33:19] [INFO]  - cp a.txt b.txt
+[2025-10-31 18:33:19] [INFO]  - rm -r dirA
+[2025-10-31 18:33:19] [INFO] Directory was delete
+[2025-10-31 18:33:19] [INFO]  - abragadabra
+[2025-10-31 18:33:19] [ERROR]  - unknown command
+[2025-10-31 18:33:19] [INFO]  - rm protected.txt
+[2025-10-31 18:33:19] [INFO]  - cat
+[2025-10-31 18:33:19] [ERROR]  - not enough arguments
+[2025-10-31 18:33:19] [INFO]  - rm
+[2025-10-31 18:33:19] [ERROR]  - not enough arguments
+[2025-10-31 18:33:19] [INFO]  - mv
+[2025-10-31 18:33:19] [ERROR]  - not enough arguments
+[2025-10-31 18:33:19] [INFO]  - cp
+[2025-10-31 18:33:19] [ERROR]  - not enough arguments
+[2025-10-31 18:33:19] [INFO]  - rm -r
+[2025-10-31 18:33:19] [ERROR]  - not enough arguments
+[2025-10-31 19:57:00] [INFO]  - rm -r "rmm dir"
+[2025-10-31 19:57:02] [INFO] Directory was delete
+[2025-10-31 19:57:17] [INFO]  - rm test.py
+[2025-10-31 19:57:20] [INFO]  - exit
