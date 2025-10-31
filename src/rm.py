@@ -1,8 +1,12 @@
+from warnings import catch_warnings
+
 from src.mv import mv
 from pathlib import Path
 from src.logger import make_logger
 
 def rm(args: list[str]):
+    trash = Path(".trash")
+    trash.mkdir(exist_ok=True)
     if args[0] != "-r":
         for src in args:
             src1 = Path(src)

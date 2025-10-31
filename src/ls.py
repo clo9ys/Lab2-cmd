@@ -22,13 +22,13 @@ class Ls:
                         Ls().l_flag(pth)
                     return None
                 else:
-                    for i in range(len(args)):
-                        pth = Resolve().resolv(args[i])
+                    for arg in args:
+                        pth = Resolve().resolv(arg)
                         if pth.is_file():
-                            print(f"{args[i]}:")
+                            print(f"{arg}:")
                             Ls().l_flag(pth)
                         else:
-                            print(f"{args[i]}:")
+                            print(f"{arg}:")
                             for p in sorted(pth.iterdir()):
                                 Ls().l_flag(p)
                     return None
@@ -39,8 +39,8 @@ class Ls:
     @staticmethod
     def arg_flag(args: list[str]):
         if len(args) > 1:
-            for i in range(len(args)):
-                print(f"{args[i]}:\n", *os.listdir(path=args[i]), sep="  ")
+            for arg in args:
+                print(f"{arg}:\n", *os.listdir(path=arg), sep="  ")
             return 1
         else:
             print(*os.listdir(path=args[0]), sep="  ")

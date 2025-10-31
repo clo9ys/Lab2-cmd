@@ -2,15 +2,15 @@ from src.resolve import Resolve
 
 def cat(args: list[str]):
     if not args:
-        raise IndexError
+        raise IndexError("Not enough arguments")
 
-    for i  in range(len(args)):
-        file1 = Resolve().resolv(pth=args[i])
+    for arg in args:
+        file1 = Resolve().resolv(pth=arg)
 
         if not file1.exists() or not file1.is_file():
             raise FileNotFoundError("No such file")
 
         with open(file1, "r", encoding="UTF-8") as f:
-            print(f"{args[i]}:\n\n", f.read())
+            print(f"{arg}:\n\n", f.read())
     return 0
 

@@ -8,6 +8,8 @@ from src.rm import rm
 from src.cp import cp
 from src.logger import make_logger
 from src.help import _help
+from src.zip_archive import make_zip, make_unzip
+from src.tar_archive import make_tar, make_untar
 
 class Shell:
     def __init__(self):
@@ -58,11 +60,23 @@ class Shell:
                 case "--help":
                     _help(args)
 
+                case "zip":
+                    make_zip(args)
+
+                case "unzip":
+                    make_unzip(args)
+
+                case "tar":
+                    make_tar(args)
+
+                case "untar":
+                    make_untar(args)
+
                 case "exit":
                     raise SystemExit(0) # функция завершения работы программы при вводе "exit"
 
                 case _:
-                    print(f"Unknown command: {cmd}")
+                    print(f"Unknown command: {cmd}. Use --help")
                     self.logger.error(f" - unknown command")
 
         except (FileNotFoundError, FileExistsError):
@@ -74,9 +88,9 @@ class Shell:
         except PermissionError as err:
             print(err)
             self.logger.error(f" - user don't have enough permissions")
-        except IndexError:
-            print("Not enough arguments")
-            self.logger.error(" - not enough arguments")
+        except IndexError as err:
+            print(err)
+            self.logger.error(f" - {err}")
 
 if __name__ == "__main__":
     Shell().parser()

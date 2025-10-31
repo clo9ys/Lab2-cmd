@@ -6,8 +6,7 @@ def mv(args: list[str]):
     if len(args) == 1:
         shutil.move(Path(args[0]), dst)
         return None
-    elif len(args) == 0:
-        raise IndexError
+
     else:
         if dst.is_dir():
             for src in args:

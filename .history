@@ -228,3 +228,42 @@
 [2025-10-31 19:57:20] exit
 [2025-10-31 20:05:54] ls /private/var/folders/jj/ylgf1yy16z7fr_52tddngf4w0000gn/T/pytest-of-maksimstolpovskiy/pytest-24/test_ls0
 [2025-10-31 20:06:02] ls /private/var/folders/jj/ylgf1yy16z7fr_52tddngf4w0000gn/T/pytest-of-maksimstolpovskiy/pytest-25/test_ls0
+[2025-10-31 21:56:32] rm
+[2025-10-31 21:56:48] cat
+[2025-10-31 21:59:06] cat 
+[2025-10-31 21:59:08] cat
+[2025-10-31 22:00:10] mv
+[2025-10-31 22:00:48] cat
+[2025-10-31 22:00:55] zip csc scs scd
+[2025-10-31 22:08:48] zip zip_tests zip_arch.zip
+[2025-10-31 22:08:50] exit
+[2025-10-31 22:09:19] unzip zip_arch.zip
+[2025-10-31 22:09:21] exit
+[2025-10-31 22:14:42] zip zip_tests zip_arch
+[2025-10-31 22:14:45] exit
+[2025-10-31 22:15:00] unzip zip_arch
+[2025-10-31 22:15:03] exit
+[2025-10-31 22:15:32] zip zip_tests zip_arch.zip
+[2025-10-31 22:15:34] exit
+[2025-10-31 22:15:46] unzip zip_arch.zip
+[2025-10-31 22:15:48] exit
+[2025-10-31 22:16:17] unzip zip_arch.zip
+[2025-10-31 22:16:18] exit
+[2025-10-31 22:16:35] unzip zip_arch.zip
+[2025-10-31 22:16:36] exit
+[2025-10-31 22:16:53] rm zip_arch.zip
+[2025-10-31 22:17:11] mv zip_tests tar_tests
+[2025-10-31 22:17:13] exit
+[2025-10-31 22:22:09] zip tar_tests
+[2025-10-31 22:33:40] tar tar_tests tar_arc.tar.gz
+[2025-10-31 22:33:42] exit
+[2025-10-31 22:34:09] rm -r tar_tests
+[2025-10-31 22:34:13] exit
+[2025-10-31 22:34:32] untar tar_arc.tar.gz
+[2025-10-31 22:34:35] exit
+[2025-10-31 22:35:48] tm test.py
+[2025-10-31 22:35:57] rm test.py
+[2025-10-31 22:35:59] exit
+[2025-10-31 22:39:16] rm test.py
+[2025-10-31 22:39:35] rm test.py
+[2025-10-31 22:39:38] exit
