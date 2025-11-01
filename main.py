@@ -13,6 +13,7 @@ from src.logger import make_logger
 from src.help import _help
 from src.zip_archive import make_zip, make_unzip
 from src.tar_archive import make_tar, make_untar
+from src.grep import grep
 
 class Shell:
     """
@@ -83,6 +84,8 @@ class Shell:
                     make_tar(args)
                 case "untar":
                     make_untar(args)
+                case "grep":
+                    grep(args)
                 case "exit":
                     raise SystemExit(0)  # завершение работы
                 case _:

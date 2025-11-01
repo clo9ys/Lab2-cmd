@@ -73,3 +73,23 @@
 [2025-11-01 21:42:25] [INFO]  - untar main
 [2025-11-01 21:42:25] [ERROR]  - main is not a gzip file
 [2025-11-01 21:42:34] [INFO]  - exit
+[2025-11-01 23:06:15] [INFO]  - grep -r -i "error.*[0-9]+" src/ main.py
+[2025-11-01 23:20:02] [INFO]  - grep -r -i "error.*[0-9]+" src/ main.py
+[2025-11-01 23:20:02] [ERROR]  - error with file
+[2025-11-01 23:20:02] [ERROR]  - error with file
+[2025-11-01 23:20:02] [ERROR]  - error with file
+[2025-11-01 23:20:02] [ERROR]  - error with file
+[2025-11-01 23:20:02] [ERROR]  - error with file
+[2025-11-01 23:20:02] [ERROR]  - error with file
+[2025-11-01 23:20:02] [ERROR]  - error with file
+[2025-11-01 23:20:02] [ERROR]  - error with file
+[2025-11-01 23:20:02] [ERROR]  - error with file
+[2025-11-01 23:20:02] [ERROR]  - error with file
+[2025-11-01 23:20:02] [ERROR]  - error with file
+[2025-11-01 23:20:02] [ERROR]  - error with file
+[2025-11-01 23:20:02] [ERROR]  - error with file
+[2025-11-01 23:20:21] [INFO]  - grep -r -i "error.*[0-9]+" main.py
+[2025-11-01 23:20:46] [INFO]  - grep -r -i "except" main.py
+[2025-11-01 23:20:58] [INFO]  - grep "except" main.py
+[2025-11-01 23:25:56] [INFO]  - grep "cmd" main.py
+[2025-11-01 23:43:26] [INFO]  - grep "asd" main.py
