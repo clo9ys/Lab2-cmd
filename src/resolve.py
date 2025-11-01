@@ -6,6 +6,7 @@ class Resolve:
         self.cwd = Path.cwd()
 
     def resolv(self, pth: str) -> Path:
+        #Функция возврата абсолютного пути
         if not os.path.isabs(pth):
             return (self.cwd / pth).expanduser().resolve()
 
